@@ -1,0 +1,24 @@
+# Показує активні гілки, і гілку яку ми вибрали
+git branch
+
+# Створення гілки
+git branch name
+
+#Перейти на іншу гілку
+git switch name
+
+# Створити й перейти
+git switch -c name
+
+#Отримання інформації про глобальні гілки
+git fetch
+
+#Опублікувати гілку
+git push -u origin name
+
+#Оновити гілку
+git pull
+
+#Отримати гілку
+git fetch
+git switch global_2
